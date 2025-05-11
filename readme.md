@@ -21,7 +21,10 @@ $$
 2\. Normalisation Factor
 
 $$\lambda \;=\;\sum_{i=0}^{L-1}\!|\omega_i|
-        \;=\; 1.5 + 0.5 + 0.5 \;=\; 2.5 .$$ Hence $$\frac{H}{\lambda}
+        \;=\; 1.5 + 0.5 + 0.5 \;=\; 2.5 .
+$$ Hence 
+
+$$\frac{H}{\lambda}
     \;=\;
     \sum_{i=0}^{L-1}
     \frac{|\omega_i|}{\lambda}\;
@@ -42,7 +45,7 @@ Let $m=\lceil\log_2 L\rceil$ (here $m=2$). Prepare $$|\chi\rangle
         +\sqrt{0.2}\,|10\rangle ,$$ via a unitary $$\textsf{PREP}:\;
     |0^{\otimes m}\rangle\!\mapsto|\chi\rangle .$$
 
-4\. [SELECT]{.sans-serif} Operator
+4\. [SELECT]
 
 $$\textsf{SELECT}
         \;=\;
@@ -52,21 +55,25 @@ $$\textsf{SELECT}
         \;+\;
         |01\rangle\!\langle01|\otimes X
         \;+\;
-        |10\rangle\!\langle10|\otimes(-Z).$$
+        |10\rangle\!\langle10|\otimes(-Z).
+$$
 
 5\. Block‐Encoding Unitary
 
-$$U
+$$
+U
         \;=\;
         (\textsf{PREP}^{\dagger}\!\otimes I)\;
         \textsf{SELECT}\;
-        (\textsf{PREP}\otimes I).$$ Projecting the ancilla onto
+        (\textsf{PREP}\otimes I).
+$$ Projecting the ancilla onto
 $|0^{\otimes m}\rangle$ returns
 $$\bigl(\langle0^{\otimes m}|\otimes I\bigr)\,
     U\,
     \bigl(|0^{\otimes m}\rangle\otimes I\bigr)
     \;=\;
-    \frac{H}{\lambda}.$$
+    \frac{H}{\lambda}.
+$$
 
 6\. Walk Operator (Qubitisation)
 
