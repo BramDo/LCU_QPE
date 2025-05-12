@@ -84,4 +84,32 @@ $$\bigl(\langle0^{\otimes m}|\otimes I\bigr)\,
     \frac{H}{\lambda}.
 $$
 
+6. Walk Operator (Qubitisation)
+
+Define the reflection
+$$R = 2|0^{\otimes m}\rangle\!\langle0^{\otimes m}| - I_{2^{m}},$$ and
+the *walk operator* 
+$$W= R\,U .$$ For every eigenvector
+$|\psi_j\rangle$ of $H$ with eigenvalue $E_j$,
+
+$$W\bigl(|0^{\otimes m}\rangle\otimes|\psi_j\rangle\bigr)
+        =\
+        e^{\pm i\theta_j}\,
+        \bigl(|0^{\otimes m}\rangle\otimes|\psi_j\rangle\bigr),
+        \qquad
+        \cos\theta_j = \frac{E_j}{\lambda}.$$
+
+7. Using QPE
+
+Because $W$ is unitary and its phases $\theta_j$ directly encode the
+eigen-energies, standard Quantum Phase Estimation on $W$ yields
+$$E_j = \lambda\,\cos\theta_j .$$
+
+8. Walkoperator in QPE
+
+The walk operator is the essential bridge between a block-encoded
+Hamiltonian and the phase spectrum required by Quantum Phase Estimation.
+Its theoretical justification follows directly from the qubitisation
+results in Low & Chuang, *npj Quantum Information* **3**, 13 (2017).
+
 
