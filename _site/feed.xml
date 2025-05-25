@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-25T21:16:20+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LCU_QPE</title><subtitle>LCU qubization</subtitle><entry><title type="html">How To Write A Blog</title><link href="http://localhost:4000/2012/09/12/how-to-write-a-blog.html" rel="alternate" type="text/html" title="How To Write A Blog" /><published>2012-09-12T00:00:00+02:00</published><updated>2012-09-12T00:00:00+02:00</updated><id>http://localhost:4000/2012/09/12/how-to-write-a-blog</id><content type="html" xml:base="http://localhost:4000/2012/09/12/how-to-write-a-blog.html"><![CDATA[<p><strong>—</strong>
+<strong>layout</strong>:<strong>post</strong>
+<strong>title</strong>:<strong>“</strong>Welcome<strong>to</strong>Jekyll!”
+<strong>—</strong></p>
+
+<p><strong># Welcome</strong></p>
+
+<p><strong>**Hello world</strong>**, this is my first Jekyll blog post.</p>
+
+<p>I hope you like it!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[— layout:post title:“WelcometoJekyll!” —]]></summary></entry></feed>
