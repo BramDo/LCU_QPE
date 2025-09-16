@@ -1,4 +1,4 @@
-How to write a mathematical description of a LCU qubisation embedded in
+Mmathematical description of a LCU qubisation embedded in
 a QPE algorithm.
 
 1. A Hermetian operator $H$ is written as a linear combination of unitaries.
